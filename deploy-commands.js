@@ -12,7 +12,7 @@ const commands = [
 		.setDescription('Channel disconnect by time')
 		.addStringOption(option => option.setName('channel').setDescription('enter channel name').setRequired(true))
 		.addStringOption(option => option.setName('time').setDescription('enter duration of connect').setRequired(true))
-		.addStringOption(option => option.setName('member').setDescription('enter member name if not then all member')),
+		.addStringOption(option => option.setName('member').setDescription('enter member if not then all member')),
 ]
 	.map(command => command.toJSON());
 
